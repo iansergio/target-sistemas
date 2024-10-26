@@ -16,3 +16,10 @@ def verificaEmFibonnaci(n):
             print(f"O número {n} não pertence à sequência de Fibonacci.")    
 print("1) Fibonacci")
 verificaEmFibonnaci(7778742049)
+
+# 2) Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula, além de informar a quantidade de vezes em que ela ocorre.
+def verificaString(letra, texto):
+    return "Sim" if letra.lower() in texto.lower() else "Não"
+
+print("2 Verificar existência da letra 'a')")
+print(verificaString("O", "Sou uma string a ser verificada"))
