@@ -23,3 +23,8 @@ def verificaString(letra, texto):
 
 print("2 Verificar existência da letra 'a')")
 print(verificaString("O", "Sou uma string a ser verificada"))
+
+# 3) Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+print("3) Trecho de código")
+# Resposta
+print("O valor será 77") 
